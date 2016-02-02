@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="action_settings">Settings</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Loading">Loading...</string>
+    <string name="msg_complete">Complete</string>
+    <string name="nameContact">Name</string>
+    <string name="surnamecontact">Surname</string>
+    <string name="ageContact">Age</string>
+    <string name="phoneNumberContact">PhoneNumber</string>
+    <string name="detail_contact">Contact Detail</string>
+    <string name="call">call</string>
+    <string name="menu_label_delete">Delete</string>
+    <string name="lbl_confirm">Confirm?</string>
+    <string name="msg_confirm_delete">You sure you want to delete?</string>
+    <string name="lbl_yes">yes</string>
+    <string name="lbl_no">no</string>
+    <string name="msg_contato_delete_success">Contact successfully deleted!</string>
+</resources>

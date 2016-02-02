@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contatos</string>
+    <string name="action_settings">Configurações</string>
+    <string name="Contacts">Contatos</string>
+    <string name="Loading">Carregando...</string>
+    <string name="msg_complete">Completo</string>
+    <string name="nameContact">Nome</string>
+    <string name="ageContact">Idade</string>
+    <string name="phoneNumberContact">Telefone</string>
+    <string name="surnamecontact">Sobrenome</string>
+    <string name="detail_contact">Detalhes Contato</string>
+    <string name="call">Chamar</string>
+    <string name="menu_label_delete">Excluir</string>
+    <string name="lbl_confirm">Confirma?</string>
+    <string name="msg_confirm_delete">Certeza que deseja excluir? </string>
+    <string name="lbl_yes">sim</string>
+    <string name="lbl_no">não</string>
+    <string name="msg_contato_delete_success">Contato deletado com Sucesso!</string>
+</resources>

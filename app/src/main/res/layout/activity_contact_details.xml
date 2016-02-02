@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="name"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/primary_text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:gravity="center_vertical"
+                android:hint="@string/nameContact"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/secundary_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/surnameContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="surname"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/primary_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/surnamecontact"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/secundary_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ageContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/surnameContact"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/ageContactLabel"
+                android:gravity="center_vertical"
+                android:hint="age"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/primary_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/ageContact"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/secundary_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPhone"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phoneNumberContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="phoneNumber"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/primary_text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/phoneNumberContact"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/secundary_text" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
